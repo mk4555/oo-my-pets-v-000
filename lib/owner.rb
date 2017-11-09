@@ -62,6 +62,7 @@ class Owner
     @pets.map do |type, pets|
       pets.each do |pet|
         pet.mood = 'nervous'
+      end
       pets.clear
     end
   end
