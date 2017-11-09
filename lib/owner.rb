@@ -56,6 +56,10 @@ class Owner
 
   def sell_pets
     @pets.each do |type|
-      type.each do |
+      type.map! do |property|
+        property.mood = 'nervous'
+      end
+    end
+    
   end
 end
