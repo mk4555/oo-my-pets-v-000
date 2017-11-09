@@ -60,6 +60,10 @@ class Owner
         property.mood = 'nervous'
       end
     end
-    
+    @pets.each do |type|
+      type.map! do |property|
+        property.clear
+      end
+    end
   end
 end
