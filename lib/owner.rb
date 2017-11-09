@@ -36,7 +36,5 @@ class Owner
     self.pets[:fishes] << fish
   end
 
-  def name
-    @name
-  end
+  
 end
