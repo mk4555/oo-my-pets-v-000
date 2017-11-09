@@ -12,7 +12,7 @@ class Owner
   end
 
   def pets
-    @hash = {fishes: [], dogs: [], cats: []}
+    @pets = {fishes: [], dogs: [], cats: []}
   end
 
   def self.all
