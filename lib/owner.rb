@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :name, :hash
+  attr_accessor :name, :pets
   attr_reader :species
 
   @@all = []
@@ -36,5 +36,5 @@ class Owner
     self.pets[:fishes] << fish
   end
 
-  
+
 end
