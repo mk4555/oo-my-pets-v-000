@@ -56,6 +56,6 @@ class Owner
 
   def sell_pets
     @pets.each do |type|
-      pet.each do |
+      type.each do |
   end
 end
