@@ -53,4 +53,9 @@ class Owner
   def play_with_cats
     @pets[:cats].map!{|cat| cat.mood = "happy"}
   end
+
+  def sell_pets
+    @pets.each do |type|
+      pet.each do |
+  end
 end
